@@ -116,9 +116,9 @@ The app runs at:
 
 ## 👩‍💻 Author
 
-**Pooja Reddy**
-💼 Full Stack Developer
-🔗 LinkedIn: [https://www.linkedin.com/in/pooja-reddy-a96126360](https://www.linkedin.com/in/pooja-reddy-a96126360)
+**Pooja Reddy**  
+ Full Stack Developer  
+🔗 LinkedIn: [linkedin.com/in/pooja-reddy-a96126360](https://www.linkedin.com/in/pooja-reddy-a96126360)
 
 
 
