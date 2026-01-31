@@ -1,0 +1,84 @@
+.BusinessCard {
+  width: 450px;
+  height: 250px;
+  background: #fff;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
+  /* ===== Name ===== */
+  h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 15px 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccf;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ===== Designation ===== */
+  .designation {
+    font-size: 1.2em;
+    font-weight: 420;
+    text-align: center;
+    margin-top: 8px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* ===== Contact Section ===== */
+  .contact {
+    margin-top: 18px;
+    padding-left: 24px;
+    position: relative;
+    z-index: 2;
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 6px 0;
+      font-size: 1em;
+      font-weight: 400;
+      text-align: left;
+    }
+  }
+
+  /* Icons */
+  .icon {
+    min-width: 18px;
+    text-align: center;
+  }
+
+  .linkedin-icon {
+    color: #0a66c2;
+    font-weight: 700;
+    font-size: 1.10em;
+  }
+
+  /* ===== Decorative Background ===== */
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 220px;
+    height: 220px;
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    border-radius: 50%;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -70px;
+    left: 30px;
+    width: 240px;
+    height: 240px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+  }
+}

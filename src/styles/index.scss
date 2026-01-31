@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 1em;
+}
+body {
+  font-size: 10pt;
+  @import "App";
+}
+
+.App.dark-theme {
+  background-color: #121212;
+  min-height: 100vh;
+}
+
+.App.dark-theme,
+.App.dark-theme * {
+  color: #f1f1f1;
+}
+
+.App.dark-theme section,
+.App.dark-theme main,
+.App.dark-theme div {
+  background-color: transparent;
+}
+
+.App.dark-theme .form,
+.App.dark-theme .preview,
+.App.dark-theme .card,
+.App.dark-theme .container {
+  background-color: #1e1e1e;
+}
+
+.App.dark-theme input,
+.App.dark-theme textarea,
+.App.dark-theme select {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-color: #444;
+}
+
+.App.dark-theme input::placeholder,
+.App.dark-theme textarea::placeholder {
+  color: #aaaaaa;
+}
+
+.App.dark-theme button {
+  background-color: #333;
+  color: #fff;
+}
+
+.App.dark-theme .preview,
+.App.dark-theme .preview *,
+.App.dark-theme .BusinessCard,
+.App.dark-theme .BusinessCard * {
+  color: #000;
+}
+
+.App.dark-theme button {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+}
+
+.App.dark-theme button:hover {
+  background-color: #222 !important;
+}
